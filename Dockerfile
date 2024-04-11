@@ -1,8 +1,8 @@
 FROM python:3.11
 
-WORKDIR /Auto-Filter-Bot
+WORKDIR /Auto-Filter-Bottikash
 
-COPY . /Auto-Filter-Bot
+COPY . /Auto-Filter-Bottikash
 
 RUN pip install -r requirements.txt
 
